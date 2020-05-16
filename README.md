@@ -1,5 +1,5 @@
 This is a "default" ML file system for me. My ML projects will extend this structure.
-
+```
 checkpoints/ - will contain folders with model weights, specific to each experiment. Not sent to github.
 configs/ - will contain .yaml config files that work with the YACS CfgNode.
 src/
@@ -12,3 +12,4 @@ src/
         data/ - data-specific utilities.
         misc/ - general utilities. Ideally, this should not change between projects.
 scripts/ - contains scripts that use src/runners to train, eval, etc.
+```
