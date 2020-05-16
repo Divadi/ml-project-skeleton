@@ -1,4 +1,4 @@
 .vscode/
 *.pyc
-checkpoints/*
+checkpoints/
 *.DS_Store
